@@ -61,7 +61,8 @@ Executing transaction: done
 
 
 
----
+***
+
 
 ## Step 2: Activate Your Conda 
 
