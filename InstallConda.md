@@ -59,3 +59,19 @@ Executing transaction: done
 #
 #     $ conda deactivate
 
+
+
+
+---
+
+## Step 2: Activate your conda
+ 
+```bash
+conda activate myenv
+
+
+```plaintext
+(myenv) sherine@sherines-MacBook-Air ~ % 
+
+
+
