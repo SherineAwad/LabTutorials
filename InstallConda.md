@@ -54,7 +54,7 @@ Executing transaction: done
 
 ---
 
-## Step 2: Activate your conda
+# Step 2: Activate your conda
 
 Run the following command to activate your environment and notice the prompt changes:
 
