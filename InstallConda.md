@@ -60,9 +60,11 @@ Executing transaction: done
 #     $ conda deactivate
 
 
+
 ---
 
-## Step 2: Activate your conda
+## Step 2: Activate Your Conda 
+
 
 ```bash
 conda activate myenv
