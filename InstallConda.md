@@ -1,3 +1,14 @@
+# Demo: Creating a Conda Environment
+
+This demo shows how to create a new Conda environment with Python 3.8.  
+Follow the instructions below to set up your environment.
+
+---
+
+## Step 1: Create the Environment
+
+Open your terminal and run the following command to create a new environment named `myenv` with Python 3.8:
+
 ```bash
 (base) sherine@sherines-MacBook-Air ~ % conda create -n myenv python=3.8
 Channels:
