@@ -53,11 +53,10 @@ To activate this environment, use
      $ conda deactivate
 
 
-# Step 2: Activate your conda
+## Step 2: Activate your conda
 
-Run the following command to activate your environment and notice the prompt changes:
+Run the following command:
 
-```bash 
-(base) sherine@sherines-MacBook-Air ~ % conda activate myenv
-(myenv) sherine@sherines-MacBook-Air ~ %
+```bash
+conda activate myenv
 
