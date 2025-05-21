@@ -53,10 +53,5 @@ To activate this environment, use
      $ conda deactivate
 
 
-## Step 2: Activate your conda
 
-Run the following command:
-
-```bash
-conda activate myenv
 
