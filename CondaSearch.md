@@ -2,7 +2,7 @@
 
 Once you isntalled and activated your conda enviroment, you can search for a tool to install as follows: 
 
-```bash
+```
 conda search package 
 
 ```
@@ -46,4 +46,10 @@ samtools                      0.1.19      h94a8ba4_5  bioconda
 samtools                      0.1.19      h94a8ba4_6  bioconda  
 ```
 
+To install a specific version and build use: 
+
+`conda install -c channel package=Version=build`   
+
+```bash
+conda install -c bioconda samtools=0.1.19=h94a8ba4_6
 
