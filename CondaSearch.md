@@ -50,6 +50,9 @@ To install a specific version and build use:
 
 `conda install -c channel package=Version=build`   
 
+For example: 
+
+
 ```bash
 conda install -c bioconda samtools=0.1.19=h94a8ba4_6
 
