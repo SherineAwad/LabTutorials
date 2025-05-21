@@ -43,14 +43,14 @@ Downloading and Extracting Packages:
 Preparing transaction: done
 Verifying transaction: done
 Executing transaction: done
-#
-# To activate this environment, use
-#
-#     $ conda activate myenv
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
+
+To activate this environment, use
+
+     $ conda activate myenv
+
+ To deactivate an active environment, use
+
+     $ conda deactivate
 
 
 # Step 2: Activate your conda
