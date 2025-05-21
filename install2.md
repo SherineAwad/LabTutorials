@@ -6,4 +6,5 @@ Run the following command:
 conda activate myenv
 
 ```
+Note: The conda myenv shows as below: 
 (myenv) sherine@sherines-MacBook-Air ~ % 
