@@ -5,6 +5,7 @@
 - [Create Environment](CondaCreate.md)
 - [Activate Environment](CondaActivate.md)
 - [Search](CondaSearch.md)
+- [Install a package](CondaInstallPkg.md)
 
 ## HPC Usage
 - [Connect to Great Lakes](connect.md)
