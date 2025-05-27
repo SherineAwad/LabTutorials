@@ -95,11 +95,3 @@ This analogy compares SLURM job components to parts of a food production system 
 #SBATCH --nodes=2               # 2 factory branches
 #SBATCH --ntasks-per-node=3     # 3 kitchens per branch
 #SBATCH --cpus-per-task=4       # 4 stoves per kitchen
-
-
-
-
-
-
-
-
