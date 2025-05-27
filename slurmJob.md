@@ -31,3 +31,35 @@ conda activate archr                     # Activate the conda environment
 This script requests a single node with 1 CPU, 30 GB of memory, and runs for up to 6 hours. It also sends you an email when the job finishes and activates the `archr` conda environment before running any subsequent commands (which you'd add after the `conda activate` line).
 
 
+
+## ✅ SLURM Settings and Their Parallelism Implication
+
+| SLURM Option            | Implies               | Usually Used For                          |
+|-------------------------|-----------------------|--------------------------------------------|
+| `--ntasks` / `--ntasks-per-node` | **Multiprocessing**    | Multiple processes (e.g., MPI, `srun`)     |
+| `--cpus-per-task`       | **Multithreading**     | One process using multiple threads (e.g., OpenMP, TBB) |
+
+
+## 🔁 Multiprocessing vs Multithreading
+
+| Feature            | Multiprocessing                             | Multithreading                              |
+|--------------------|---------------------------------------------|---------------------------------------------|
+| **Definition**     | Running **multiple processes**              | Running **multiple threads** in one process |
+| **Memory**         | Each process has its **own memory space**   | Threads **share the same memory space**     |
+| **Communication**  | Slower – typically via MPI or sockets       | Faster – threads access shared memory       |
+| **Failure**        | One process crash doesn't kill others       | Thread crash can bring down the whole process |
+| **Used In**        | MPI, distributed computing, job arrays      | OpenMP, multithreaded C++/Java/Python       |
+| **Overhead**       | Higher (process creation & context switch)  | Lower (lighter-weight than processes)       |
+
+
+## 💡 Analogy
+
+- **Multiprocessing**: Like having 12 cooks in **12 separate kitchens**. Each has their own space and tools. They work in parallel but don’t easily share food/tools (unless they go out of their way to do so).
+
+- **Multithreading**: Like 12 cooks working in **one big kitchen**, sharing tools and ingredients, and able to collaborate faster — but if one causes a fire, the whole kitchen might go down.
+
+
+
+
+
+

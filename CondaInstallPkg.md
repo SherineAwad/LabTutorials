@@ -18,3 +18,8 @@ You can specify the channel before the package name if needed:
 conda install bioconda::samtools
 ```
 
+
+```bash
+conda install -c bioconda samtools=0.1.19
+```
+
