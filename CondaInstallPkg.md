@@ -1,4 +1,4 @@
-## Installing a Package with Conda
+## Step 5: Installing a Package with Conda
 
 To install a package using Conda, use the following command:
 

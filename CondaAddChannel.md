@@ -1,4 +1,4 @@
-## To add a channel to your conda 
+## Step 3: add a channel to your conda 
 
 
 ```bash
