@@ -4,6 +4,7 @@
 - [Install Conda](CondaInstall.md)
 - [Create Environment](CondaCreate.md)
 - [Activate Environment](CondaActivate.md)
+- [Add channels](CondaAddChannel.md)
 - [Search](CondaSearch.md)
 - [Install a package](CondaInstallPkg.md)
 
