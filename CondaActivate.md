@@ -8,4 +8,15 @@ conda activate myenv
 ```
 Note: The conda myenv shows as below:
  
-(myenv) sherine@sherines-MacBook-Air ~ % 
+(myenv) sherine@sherines-MacBook-Air ~ %
+
+
+# To deactivate your conda use: 
+
+```bash
+conda deactivate 
+```
+
+(base) sherine@sherines-MacBook-Air ~ %
+
+ 
