@@ -1,4 +1,4 @@
-##  Installing Miniconda (macOS & Linux)
+# Step 0:  Installing Miniconda (macOS & Linux)
 
 Miniconda is a minimal installer for Conda, a popular package and environment manager. Follow the steps below to install it on your system.
 
